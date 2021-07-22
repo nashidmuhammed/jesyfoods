@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="assets/logos/favicon.ico" type="image/x-icon">
+    <title>Jesy Foods | Admin Panel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    
+    <link rel="stylesheet" href="css/adm_style.css" />
+</head>
+<body>
+
+    <div class="side_nav active">
+        <div class="logo_content">
+            <div class="logo">
+                <img src="./assets/logos/logo.png" alt="">
+                <div class="logo_name">JesyFoods</div>
+            </div>
+            <i class="fa fa-bars" id="btn_bar" aria-hidden="true"></i>
+        </div>
+        <ul class="nav_list">
+            <li class="mb-2">
+                <i class="fa fa-search" aria-hidden="true"></i>
+                <input type="text" placeholder="Search...">
+                <span class="tool_tip">Search</span>
+            </li>
+            <li>
+                <a href="" class="active">
+                <i class="fa fa-th-large" aria-hidden="true"></i>
+                <span class="links_name">Dashboard</span>
+                </a>
+                <span class="tool_tip">Dashboard</span>
+            </li>
+            <li>
+                <a href="">
+                <i class="fa fa-list" aria-hidden="true"></i>
+                <span class="links_name">Recipies</span>
+                </a>
+                <span class="tool_tip">Recipies</span>
+            </li>
+            <li>
+                <a href="">
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+                <span class="links_name">Saved</span>
+                </a>
+                <span class="tool_tip">Saved</span>
+            </li>
+            <li>
+                <a href="">
+                <i class="fa fa-user-o" aria-hidden="true"></i>
+                <span class="links_name">Users</span>
+                </a>
+                <span class="tool_tip">Users</span>
+            </li>
+            <li>
+                <a href="">
+                <i class="fa fa-comments-o" aria-hidden="true"></i>
+                <span class="links_name">Messages</span>
+                </a>
+                <span class="tool_tip">Messages</span>
+            </li>
+            <li>
+                <a href="">
+                <i class="fa fa-cog" aria-hidden="true"></i>
+                <span class="links_name">Settings</span>
+                </a>
+                <span class="tool_tip">Settings</span>
+            </li>
+        </ul>
+        <div class="log_sec">
+            <div class="log_out"> 
+                <a href="">
+                    <span>Logout</span>
+                <i class="fa fa-sign-out" id="logout" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="home_content">
+
+        <div class="nav_top">
+            <div class="hed">
+                Admin Panel
+            </div>
+            <div class="nav_right">
+                <div class="home">
+                    <div class="icon_wrap"><a href="./index.html"><i class="fa fa-home"></i></a></div>
+                </div>
+                <div class="mail">
+                    <div class="icon_wrap"><i class="fa fa-envelope"></i></div>
+                </div>
+                <div class="notification">
+                <div class="icon_wrap"><i class="fa fa-bell"></i></div>
+                <div class="not_dd" >
+                    <ul class="not_ul">
+                        <li class="success starbucks">
+                            <div class="notify_data">
+                                <div class="title">
+                                    Test title for this
+                                </div>
+                                <div class="sub_title">
+                                    Sub dflgi dfglnidfg dfgd
+                                </div>
+                            </div>
+                            <div class="notify_status">
+                                <a href=""><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+                            </div>
+                        </li>
+                        <li class="failed basking_robbins">
+                            <div class="notify_data">
+                                <div class="title">
+                                    Test title for this
+                                </div>
+                                <div class="sub_title">
+                                    Sub dflgi dfglnidfg dfgd
+                                </div>
+                            </div>
+                            <div class="notify_status">
+                                <a href=""><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+                            </div>
+                        </li>
+                        <li class="success starbucks">
+                            <div class="notify_data">
+                                <div class="title">
+                                    Test title for this
+                                </div>
+                                <div class="sub_title">
+                                    Sub dflgi dfglnidfg dfgd
+                                </div>
+                            </div>
+                            <div class="notify_status">
+                                <a href=""><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+                            </div>
+                        </li>
+                        <li class="failed basking_robbins">
+                            <div class="notify_data">
+                                <div class="title">
+                                    Test title for this
+                                </div>
+                                <div class="sub_title">
+                                    Sub dflgi dfglnidfg dfgd
+                                </div>
+                            </div>
+                            <div class="notify_status">
+                                <a href=""><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+                            </div>
+                        </li>
+                        <li class="clear_all">
+                            <a class="link" href="">Clear All</a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+                <div class="prof">                  
+                <div class="icon_wrap">                    
+                    <i class="fa fa-user"></i>
+                    <span class="name">Nashid Muhammed <i class="fa fa-chevron-down" aria-hidden="true"></i></span>
+                </div>
+
+                <div class="prof_dd" >
+                    <ul class="prof_ul mb-0">
+                        <li class="prof_li">
+                            <a href="" class="prof">
+                                <span class="picon"><i class="fa fa-user" aria-hidden="true"></i></span>
+                                Profile
+                            </a>
+                            <a class="btn" href="">My Account</a>
+                        </li>
+                        <li>
+                            <a href="" class="address">
+                                <span class="picon"><i class="fa fa-map-marker" aria-hidden="true"></i></span>
+                                Address
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="settings">
+                                <span class="picon"><i class="fa fa-cog" aria-hidden="true"></i></span>
+                                Settings
+                            </a>
+                        </li>
+                        <li>
+                            <a href="" class="logout">
+                                <span class="picon"><i class="fa fa-sign-out" aria-hidden="true"></i></span>
+                                Logout
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="text">Home Content</div>
+    </section>
+
+<script>
+    let btn = document.querySelector("#btn_bar");
+    let side_nav = document.querySelector(".side_nav");
+    let search_btn = document.querySelector(".fa-search");
+
+    btn.onclick = function() {
+        side_nav.classList.toggle("active")
+    }
+    search_btn.onclick = function() {
+        side_nav.classList.toggle("active")
+    }
+
+
+    var wi = $(window).width();
+    console.log("width=",wi)
+    if (wi <= 768) {
+            $('.side_nav').removeClass('active');
+        }
+    var width;
+    $(window).resize(function() {
+    width = $(window).width();
+    if (width <= 768) {
+            $('.side_nav').removeClass('active');
+        }
+    else {
+        $('.side_nav').addClass('active');
+    }
+    });
+
+
+    $(document).ready(function(){
+        $(".prof .icon_wrap").click(function(){
+            $(this).parent().toggleClass("active");
+            $(".notification").removeClass("active");
+        })
+        $(".notification .icon_wrap").click(function(){
+            $(this).parent().toggleClass("active");
+            $(".prof").removeClass("active");
+        })
+    })
+
+    window.addEventListener('mouseup', function(event){
+	var notification = document.getElementById('.notification');
+	if (event.target != prof && event.target.parentNode != notification){
+        $(".notification").removeClass("active");
+    }
+	var prof = document.getElementById('.prof');
+	if (event.target != prof && event.target.parentNode != prof){
+        $(".prof").removeClass("active");
+    }
+});
+    
+</script>
+<script src="js/script.js"></script>
+</body>
+</html>
