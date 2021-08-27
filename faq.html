@@ -11,7 +11,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
@@ -28,9 +29,9 @@
             <ul>
               <li><a href="index.html" data-after="Home">Home</a></li>
               <li><a href="products.html" data-after="Products">Products</a></li>
-              <li><a href="about.html" data-after="About">About</a></li>
+              <li><a class="active"   href="about.html" data-after="About">About</a></li>
               <li><a href="#" data-after="Media">Media</a></li>
-              <li><a class="active"  href="faq.html" data-after="FAQ">FAQ</a></li>
+              <li><a href="recipe_01.html" data-after="Recipe">Recipe</a></li>
               <li><a href="contact.html" data-after="Contact">Contact</a></li>
             </ul>
           </div>
@@ -55,7 +56,7 @@
       
           <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
             <div class="card-body">
-              JESY is the new name of Spices, Mix Masala and Curry powders
+              JESY is the new name of Spices, Manufacturing Mix Masala and Curry powders with natural ingredients
             </div>
           </div>
         </div>
@@ -87,22 +88,37 @@
             </div>
           </div>
         </div>
+        <div class="card">
+          <div class="card-header" id="heading4">
+            <h2 class="mb-0">
+              <a class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                What is the difference with other brands?
+              </a>
+            </h2>
+          </div>
+          <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordionExample">
+            <div class="card-body">
+              Quality and Taste!      <br>
+              Try and Feel the diffrence
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="text-center mt-5">
+      <div class="text-center m-5 ">
           <a href="contact.html" class="btn btn-std">I have a question!</a>
       </div>
 </section>
 
 
 <section id="follow">
-  <div class="container-fluid mt-5">
+  <div class="container-fluid mt-0">
     <h1>Follow Us</h1>
-    <a href="https://www.instagram.com/jesyfoods/" class="btn btn-std in"><i class="fa fa-instagram"> </i> Follow on instagram</a>
-    <a href="https://twitter.com/JesyFoods" class="btn btn-std tw"><i class="fa fa-twitter"> </i> Follow on Twitter</a>
-    <a href="https://www.facebook.com/jesyfoods" class="btn btn-std fc"><i class="fa fa-facebook"> </i> Like on Facebook</a>
-    <a href="https://api.whatsapp.com/send?phone=918137969111&text=" class="btn btn-std wh"><i class="fa fa-whatsapp"> </i> Chat on WhatsApp</a>
-    <a href="mailto:info@jesyfoods.com?subject=Enquiry" class="btn btn-std em"><i class="fa fa-envelope"> </i> Send E-Mail</a>
-    <a href="https://www.youtube.com/channel/UCIi5l-P4fAT_i6lDo_6OO9A" class="btn btn-std yo"><i class="fa fa-youtube"> </i> Subscribe on YouTube</a>
+    <a data-aos="fade-up" href="https://www.instagram.com/jesyfoods/" class="btn btn-std in"><i class="fa fa-instagram"> </i> Follow on instagram</a>
+    <a data-aos="fade-up" data-aos-duration="500" href="https://twitter.com/JesyFoods" class="btn btn-std tw"><i class="fa fa-twitter"> </i> Follow on Twitter</a>
+    <a data-aos="fade-up" data-aos-duration="550"  href="https://www.facebook.com/jesyfoods" class="btn btn-std fc"><i class="fa fa-facebook"> </i> Like on Facebook</a>
+    <a data-aos="fade-up" data-aos-duration="1000"  href="https://api.whatsapp.com/send?phone=918137969111&text=" class="btn btn-std wh"><i class="fa fa-whatsapp"> </i> Chat on WhatsApp</a>
+    <a data-aos="fade-up" data-aos-duration="1050"  href="mailto:info@jesyfoods.com?subject=Enquiry" class="btn btn-std em"><i class="fa fa-envelope"> </i> Send E-Mail</a>
+    <a data-aos="fade-up" data-aos-duration="1100"  href="https://www.youtube.com/channel/UCIi5l-P4fAT_i6lDo_6OO9A" class="btn btn-std yo"><i class="fa fa-youtube"> </i> Subscribe on YouTube</a>
   </div>
 </section>
 
@@ -324,7 +340,7 @@
     </div>
   
     <div class="footer-copyright">
-      <p>Copyright JesyFoods © 2020. All rights reserved. Website developed by <a href="https://www.naszi.ml">NASZI</a></p>
+      <p>Copyright JesyFoods © 2021. All rights reserved. Website developed by <a href="https://www.naszi.ml">NASZI</a></p>
     </div>
   </div>      
   </footer>
@@ -338,6 +354,7 @@
     });
   console.log("finish")
   </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="js/script.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>

@@ -11,7 +11,8 @@
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="css/style.css" />
 </head>
 
@@ -27,7 +28,7 @@
             <div class="hamburger"><div class="bar"></div></div>
             <ul>
               <li><a href="index.html" data-after="Home">Home</a></li>
-              <li><a class="active" href="#" data-after="Products">Products</a></li>
+              <li><a class="active" href="products.html" data-after="Products">Products</a></li>
               <li><a href="about.html" data-after="About">About</a></li>
               <li><a href="" data-after="Media">Media</a></li>
               <li><a href="tasty_hub.html" data-after="recipes">Recipes</a></li>
@@ -44,28 +45,28 @@
 
 
 <section id="prod" style="margin-top: 150px;">
-  <div class="hd">
+  <div class="hd" data-aos="fade-up">
     <span>Our Featured</span> Products
   </div>
   <div class="wrapper">
     <div class="caro owl-carousel">
-      <div class="card card-1"><img src="./assets/Products/Jesy_Chicken_Masala.png" alt=""></div>
-      <div class="card card-2"><img src="./assets/Products/Jesy_Sambar_Powder.png" alt=""></div>
-      <div class="card card-3"><img src="./assets/Products/Jesy_Kashmiri_Chilli.png" alt=""></div>
-      <div class="card card-4"><img src="./assets/Products/Jesy_Coriander.png" alt=""></div>
+      <div class="card card-1" data-aos="fade-up"><img src="./assets/Products/Jesy_Chicken_Masala.png" alt=""></div>
+      <div class="card card-2" data-aos="fade-up"><img src="./assets/Products/Jesy_Sambar_Powder.png" alt=""></div>
+      <div class="card card-3" data-aos="fade-up"><img src="./assets/Products/Jesy_Kashmiri_Chilli.png" alt=""></div>
+      <div class="card card-4" data-aos="fade-up"><img src="./assets/Products/Jesy_Coriander.png" alt=""></div>
     </div>
   </div>
 
 
 
-  <div class="hd">
+  <div class="hd" data-aos="fade-up">
    <span>All</span> Products
   </div>
   <div class="container">
       <div class="row">
         <div class="col-6 col-sm-3">
           <a data-toggle="modal" data-target="#kashmiri">
-            <img src="./assets/Products/Jesy_Kashmiri_Chilli.png" alt="">
+            <img src="./assets/Products/Jesy_Kashmiri_Chilli.png" alt="" data-aos="fade-up" data-aos-duration="500" >
             <div class="disc">
               <span>Kashmiri Chilli Powder</span>
               <p>Available : 100g, 250g, 1kg</p>
@@ -106,7 +107,7 @@
         </div>
           <div class="col-6 col-sm-3">
               <a data-toggle="modal" data-target="#chilly">
-              <img src="./assets/Products/Jesy_Chilli.png" alt="">
+              <img src="./assets/Products/Jesy_Chilli.png" alt="" data-aos="fade-up" data-aos-duration="550">
               <div class="disc">
                 <span>Chilly Powder</span>
                 <p>Available : 100g, 250g, 1kg</p>
@@ -147,7 +148,7 @@
           </div>
           <div class="col-6 col-sm-3">
             <a data-toggle="modal" data-target="#Coriander">
-              <img src="./assets/Products/Jesy_Coriander.png" alt="">
+              <img src="./assets/Products/Jesy_Coriander.png" alt="" data-aos="fade-up" data-aos-duration="1000">
               <div class="disc">
                 <span>Coriander Powder</span>
                 <p>Available : 100g, 250g, 1Kg</p>
@@ -188,7 +189,7 @@
         </div>
         <div class="col-6 col-sm-3">
           <a data-toggle="modal" data-target="#turmeric">
-            <img src="./assets/Products/Jesy_Turmeric.png" alt="">
+            <img src="./assets/Products/Jesy_Turmeric.png" alt="" data-aos="fade-up" data-aos-duration="1050">
             <div class="disc">
               <span>Turmeric Powder</span>
               <p>Available : 100g, 250g, 1kg</p>
@@ -229,7 +230,7 @@
         </div>
         <div class="col-6 col-sm-3">
           <a data-toggle="modal" data-target="#sambar">
-            <img src="./assets/Products/Jesy_Sambar_Powder.png" alt="">
+            <img src="./assets/Products/Jesy_Sambar_Powder.png" alt="" data-aos="fade-up" data-aos-duration="1100">
             <div class="disc">
               <span>Sambar Powder</span>
               <p>Available : 100g, 250g, 1kg</p>
@@ -272,7 +273,7 @@
         </div>
         <div class="col-6 col-sm-3">
             <a data-toggle="modal" data-target="#chicken">
-              <img src="./assets/Products/Jesy_Chicken_Masala.png" alt="">
+              <img src="./assets/Products/Jesy_Chicken_Masala.png" alt="" data-aos="fade-up" data-aos-duration="1150">
               <div class="disc">
                 <span>Chicken Masala</span>
                 <p>Available : 100g, 250g, 1kg</p>
@@ -314,7 +315,7 @@
           <!--chhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh-->
           <div class="col-6 col-sm-3">
             <a data-toggle="modal" data-target="#meat">
-              <img src="./assets/Products/Jesy_Meat_Masala.png" alt="">
+              <img src="./assets/Products/Jesy_Meat_Masala.png" alt="" data-aos="fade-up" data-aos-duration="1200">
               <div class="disc">
                 <span>Meat Masala</span>
                 <p>Available : 100g, 250g, 1kg</p>
@@ -356,7 +357,7 @@
 
           <div class="col-6 col-sm-3">
             <a data-toggle="modal" data-target="#fish">
-              <img src="./assets/Products/Jesy_Fish_Masala.png" alt="">
+              <img src="./assets/Products/Jesy_Fish_Masala.png" alt="" data-aos="fade-up" data-aos-duration="1250">
               <div class="disc">
                 <span>Fish Masala</span>
                 <p>Available : 100g, 250g, 1kg</p>
@@ -398,7 +399,7 @@
 
           <div class="col-6 col-sm-3">
             <a data-toggle="modal" data-target="#biryani">
-              <img src="./assets/Products/Jesy_Biryani_Masala.png" alt="">
+              <img src="./assets/Products/Jesy_Biryani_Masala.png" alt="" data-aos="fade-up" data-aos-duration="1300">
               <div class="disc">
                 <span>Biryani Masala</span>
                 <p>Available : 50g, 100g</p>
@@ -440,7 +441,7 @@
 
           <div class="col-6 col-sm-3">
             <a data-toggle="modal" data-target="#garam">
-              <img src="./assets/Products/Jesy_Garam_Masala.png" alt="">
+              <img src="./assets/Products/Jesy_Garam_Masala.png" alt="" data-aos="fade-up" data-aos-duration="1350">
               <div class="disc">
                 <span>Garam Masala</span>
                 <p>Available : 50g, 100g</p>
@@ -481,7 +482,7 @@
           </div>
           <div class="col-6 col-sm-3">
             <a data-toggle="modal" data-target="#pepper">
-              <img src="./assets/Products/Jesy_Pepper.png" alt="">
+              <img src="./assets/Products/Jesy_Pepper.png" alt="" data-aos="fade-up" data-aos-duration="1400">
               <div class="disc">
                 <span>Pepper Powder</span>
                 <p>Available : 50g, 100g</p>
@@ -547,14 +548,14 @@
 </section>
 
 <section id="follow">
-  <div class="container-fluid mt-5">
+  <div class="container-fluid mt-0">
     <h1>Follow Us</h1>
-    <a href="https://www.instagram.com/jesyfoods/" class="btn btn-std in"><i class="fa fa-instagram"> </i> Follow on instagram</a>
-    <a href="https://twitter.com/JesyFoods" class="btn btn-std tw"><i class="fa fa-twitter"> </i> Follow on Twitter</a>
-    <a href="https://www.facebook.com/jesyfoods" class="btn btn-std fc"><i class="fa fa-facebook"> </i> Like on Facebook</a>
-    <a href="https://api.whatsapp.com/send?phone=918137969111&text=" class="btn btn-std wh"><i class="fa fa-whatsapp"> </i> Chat on WhatsApp</a>
-    <a href="mailto:info@jesyfoods.com?subject=Enquiry" class="btn btn-std em"><i class="fa fa-envelope"> </i> Send E-Mail</a>
-    <a href="https://www.youtube.com/channel/UCIi5l-P4fAT_i6lDo_6OO9A" class="btn btn-std yo"><i class="fa fa-youtube"> </i> Subscribe on YouTube</a>
+    <a data-aos="fade-up" href="https://www.instagram.com/jesyfoods/" class="btn btn-std in"><i class="fa fa-instagram"> </i> Follow on instagram</a>
+    <a data-aos="fade-up" data-aos-duration="500" href="https://twitter.com/JesyFoods" class="btn btn-std tw"><i class="fa fa-twitter"> </i> Follow on Twitter</a>
+    <a data-aos="fade-up" data-aos-duration="550"  href="https://www.facebook.com/jesyfoods" class="btn btn-std fc"><i class="fa fa-facebook"> </i> Like on Facebook</a>
+    <a data-aos="fade-up" data-aos-duration="1000"  href="https://api.whatsapp.com/send?phone=918137969111&text=" class="btn btn-std wh"><i class="fa fa-whatsapp"> </i> Chat on WhatsApp</a>
+    <a data-aos="fade-up" data-aos-duration="1050"  href="mailto:info@jesyfoods.com?subject=Enquiry" class="btn btn-std em"><i class="fa fa-envelope"> </i> Send E-Mail</a>
+    <a data-aos="fade-up" data-aos-duration="1100"  href="https://www.youtube.com/channel/UCIi5l-P4fAT_i6lDo_6OO9A" class="btn btn-std yo"><i class="fa fa-youtube"> </i> Subscribe on YouTube</a>
   </div>
 </section>
 
@@ -776,7 +777,7 @@
     </div>
   
     <div class="footer-copyright">
-      <p>Copyright JesyFoods © 2020. All rights reserved. Website developed by <a href="https://www.naszi.ml">NASZI</a></p>
+      <p>Copyright JesyFoods © 2021. All rights reserved. Website developed by <a href="https://www.naszi.ml">NASZI</a></p>
     </div>
   </div>      
   </footer>
@@ -790,6 +791,7 @@
     });
   console.log("finish")
   </script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="js/script.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" ></script>

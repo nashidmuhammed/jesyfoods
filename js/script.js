@@ -1,6 +1,7 @@
 /*load*/
 console.log("ready")
 
+AOS.init();
 
 const hamburger = document.querySelector('.header .nav-bar .nav-list .hamburger');
 const mob_menu = document.querySelector('.header .nav-bar .nav-list ul');
